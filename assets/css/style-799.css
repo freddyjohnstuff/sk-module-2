@@ -1,0 +1,101 @@
+
+@media (max-width: 799px)  and (min-width: 321px) {
+    #wrapper_center {
+        width: 100%;
+    }
+
+    .only-mobile {
+        display: block;
+    }
+    .only-desktop {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .header .nav .nav__menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .map,
+    .contact-section,
+    .gallery,
+    .repair,
+    .control,
+    .projects,
+    .heading__wrapper {
+        width: calc(100% - 32px);
+    }
+
+    .heading__button-group {
+        display: block;
+    }
+    .heading__button-group > button {
+        display: inline-block;
+    }
+
+    .heading__button:first-child { margin: 8px 16px 8px 0;}
+    .heading__button:not(:first-child) {  margin: 8px 0 8px 0;}
+
+    .gallery .gallery__buttons,
+    .projects .carousel__buttons {
+        position: relative;
+        margin: 10px auto;
+    }
+    .gallery .c-buttons,
+    .projects .c-buttons {
+        display: block;
+        width: fit-content;
+    }
+
+    form.contact button.contact__submit,
+    form.feedback button.feedback__submit {
+        width: 100%;
+        padding: 13px 26px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    form.contact label.contact-checkbox,
+    form.feedback label.feedback-checkbox
+    {
+        justify-content: start;
+    }
+    label.feedback-checkbox > input {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin: 0 16px;
+    }
+    label.feedback-checkbox > span {
+        display: inline-block;
+    }
+    .types .types__image {
+        background-size:cover;
+    }
+    .types .types__sub-list {
+        margin: 0 auto;
+        width: 70%;
+        min-width: 228px;
+        padding: 24px 0 16px 0;
+    }
+    .types .types__button {
+        width: 100%;
+        padding: 16px 32px;
+    }
+    .gallery .gallery__li{
+        width: calc(100vw - 0px);
+        height: auto;
+    }
+
+    .gallery .gallery__image {
+        width: 100%;
+        height: auto;
+    }
+    footer {
+        display: block;
+        height: 40px;
+    }
+}
